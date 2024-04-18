@@ -182,7 +182,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-assistant_id = "X5lMkWCHZ1TtQeilMouDIL6B"
+## Parcero Assistant 1.0 (OpenAI GPT-4 Turbo)
+## assistant_id = "X5lMkWCHZ1TtQeilMouDIL6B"
+
+## Parcero Assistant 1.0 (OpenAI GPT-3.5 Turbo)
+assistant_id = "X5lMcUDlFG9tTwFfIjVIOAKB"
 
 assistant: Assistant = taskingai.assistant.get_assistant(
     assistant_id=assistant_id,
