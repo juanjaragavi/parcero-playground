@@ -1,0 +1,10 @@
+[theme]
+base = "light"
+primaryColor = "#3d863c"
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = false
+
+[runner]
+fastReruns = true
