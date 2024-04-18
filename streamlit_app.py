@@ -218,7 +218,7 @@ if prompt := st.chat_input():
         assistant_id=assistant.assistant_id,
         chat_id=chat.chat_id,
         stream=False,
-    )             
+    )
 
     msg = assistant_message_response.content.text
     st.session_state.messages.append({"role": "assistant", "content": msg})
