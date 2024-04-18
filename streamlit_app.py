@@ -1,8 +1,13 @@
 
+import os
 import taskingai
 import streamlit as st
 from taskingai.assistant import Assistant
 from taskingai.assistant.chat import Chat
+
+taskingai_api_key = os.environ["TASKINGAI_API_KEY"]
+
+taskingai.init(api_key=taskingai_api_key)
 
 st.set_page_config(
     page_title="Welcome to Medellín! | MyParcero.com",
@@ -176,8 +181,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-taskingai.init(api_key='ta9HMXTAJmlkjLxZnRZRGmpdlcGJ7oyx')
 
 assistant_id = "X5lMkWCHZ1TtQeilMouDIL6B"
 
