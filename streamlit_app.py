@@ -1,5 +1,4 @@
 
-import os
 import taskingai
 import streamlit as st
 from taskingai.assistant import Assistant
