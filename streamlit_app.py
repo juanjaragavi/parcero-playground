@@ -178,7 +178,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-taskingai_api_key = os.getenv("TASKINGAI_API_KEY")
+taskingai_api_key = st.secrets['TASKINGAI_API_KEY']
 
 taskingai.init(api_key=taskingai_api_key)
 
