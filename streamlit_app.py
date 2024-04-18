@@ -177,7 +177,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-taskingai.init(api_key="ta9HMXTAJmlkjLxZnRZRGmpdlcGJ7oyx")
+taskingai.init(api_key='ta9HMXTAJmlkjLxZnRZRGmpdlcGJ7oyx')
 
 assistant_id = "X5lMkWCHZ1TtQeilMouDIL6B"
 
